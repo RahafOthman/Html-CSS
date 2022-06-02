@@ -1,0 +1,261 @@
+
+////////////////////////////////////////
+/*public*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #727475;
+}
+body{
+    /*font-family: 'Playfair Display', sans-serif;*/
+    font-family: 'Playfair Display SC', serif;
+}
+.nav{
+    font-size: 14px;
+    text-transform:uppercase;
+    font-weight: 100;
+}
+
+/*private*/
+/*navbar 1*/
+.navbar_one{
+    background-color: #444444;
+    display: flex;
+    background-image: url("../img/bg-topheader.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+}
+.navbar1_list_items a {
+    color:rgba(252, 252, 252, 0.973);
+    display: inline-block;   
+}
+.navbar1_list_items a:hover{
+    cursor: pointer;
+}
+.navbar1_list_items a .img{
+    margin-right: 7px;
+}
+
+.navbar1_content_left{
+    width: 60%;
+}
+.navbar1_content_right{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+/*
+.navbar1_list_items{
+    display: flex;
+    width: 50%;
+    padding:10px 0;
+}
+.navbar1_list_item{
+    display: flex;
+    padding-right: 15px;
+}
+
+.social_list_items{
+    display: flex;
+    width: 25%;
+}
+.lag_list_items{
+    display: flex;
+    width: 50%;
+    padding-left:10px;
+}
+*/
+.navbar1_list_item_list{
+    padding-left: 15px;
+    color: #ffffff;
+
+}
+.navbar1_content_left{
+    padding:10px
+}
+/*end navbar1*/
+/*start logo*/
+.logo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+.logo img{
+   display: block;
+   width: 15%;
+   margin: 47px auto 33px;;
+}
+.logo:hover a{
+    cursor: pointer;
+}
+.logo_section{
+    border: solid #f0eded .5px;
+}
+/*end logo*/
+/*start navbar2 */
+.navbar_two_list_items{
+    display: flex;
+    width: 78%;
+    justify-content: center;    
+}
+.navbar_two_list_item_width{
+    width: 11%;
+}
+.navbar_two_list_item{
+    color: #727475;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: Playfair Display;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    padding: 20px 5px;
+}
+
+.navbar_two_list_item:hover a{
+    cursor: pointer;
+
+}
+
+.navbar_two_list_item_table a{
+    border-radius: 4px;
+    margin-left: 30px;
+    padding: 7px 15px;
+    background-color: #3b9a45;
+    color: #fff;
+
+}
+
+.navbar_two_list_items {
+    position: relative;
+}
+.navbar-two-sub-menu-items{
+    position: absolute;
+    display:none;
+    margin: auto;
+    box-shadow: 0px 0px 10px #e8e2e2;
+    width: 200px;
+    z-index: 999;
+    background-color:#ffffff ;
+}
+.navbar_two_list_items .navbar_two_list_item:hover .navbar-two-sub-menu-items{
+    display: block;
+    top:53px;
+}
+.navbar-two-sub-menu-item{
+    border-bottom: solid #f0eded 0.5px;
+    height: 30px;
+    padding-left:15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: 100;
+}
+
+/*
+.navbar_two  ul>li:after{
+    content: "|";
+    display: inline-block;
+    margin: 0px 10px;
+    color: #f1f1f1;
+}
+*/
+/*end navbar2 */
+/*Start header */
+.header{
+    width: 100%;
+    height: 87vh;
+    background-size: 100%;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    perspective: 1600px;
+    transform-style: preserve-3d;
+    
+}
+
+/*end header*/
+
+/*start footer*/
+.footer{
+    width: 100%;
+    height: 10%;
+}
+.footer .top{
+    background-image: url("../img/paral-07.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: visible;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px 100px;
+    font-size: 14px;
+}
+.footer .footer_parts{
+    width: 33.3%;
+    margin:auto;
+}
+
+.footer .footer_parts .social {
+    padding-bottom: 20px;
+}
+.footer .footer_parts .social a{
+    margin: 5px;
+    width: 20px;
+}
+.footer .footer_parts .prg_part1_p1{
+    padding-bottom: 40px;
+}
+.footer .footer_parts .prg_part1_p2{
+    width: 70%;
+    margin:auto;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.footer .footer_parts .footer_prg_part2_p1{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footer .footer_parts .footer_prg_part2_p2{
+    font-family: 'Playfair Display SC', serif;
+
+}
+.footer .footer_part_3{
+    text-transform: uppercase;
+    line-height: 2;
+}
+.footer .bottom_prg{
+    color:#727475;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 19px;
+    font-size: 15px
+}
+/*end footer*/
